@@ -3,15 +3,15 @@
 
 const static int DECKSZ = 52;
 
-using namespace std;
-
-void DisplayDeck(std::vector<int> &deck)
+template<class T>
+void DisplayDeck(const std::vector<T> &deck)
 {
     for(auto card: deck)
         std::cout<<card<<'\n';
 }
 
-void InitializeDeck(std::vector<int> &deck)
+template<class T>
+void InitializeDeck(std::vector<T> &deck)
 {
     for(unsigned i = 0; i < DECKSZ; i++)
         deck.push_back(i);
