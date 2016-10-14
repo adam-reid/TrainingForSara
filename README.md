@@ -9,6 +9,7 @@ Ok, so here's the to do.
 
 <ol>
 <li>Pull the newest info i've put on development.</li>
+<li>Check out a new branch called <b>CardClass</b></li>
 <li>Set up a class here, called cards. Include a header and a implementation file.</li>
 <li>Test / add / commit (push if you like)</li>
 <li>Phase 1 - Set the vector to contain <code>cards</code>, and make <code>cards</code> a glorified wrapper of a public integer. This will allow you to easily test without worrying about accessibility.</li>
